@@ -4,7 +4,7 @@
     "main": "index.js",
     "license": "ISC",
     "scripts": {
-        "test": "jest --runInBand --detectOpenHandles --passWithNoTests",
+        "test": "jest --passWithNoTests",
         "start": "webpack serve --config webpack.dev.js",
         "webpack": "webpack --mode production --config webpack.prod.js",
         "build": "yarn run webpack",
